@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+#include "cmath"
+using namespace std;
+int main()
+{//TASK WITH "IF"
+  float a,b,c,x;
+    double f;
+    cout << "Enter a, b, c, x\n";
+    cin >> a >> b >> c >> x;
+    if (a<0 && x!=0) f = a * pow(x,2) + pow(b,2)*x;
+        else if (a == 0 && x!=0)  f = x - ((a)/(x-c));
+            else if (c>0) f = 1 + (x/c);
+                else(false);
+    cout << "F =" << setprecision(2) << f << endl; 
+
+  return 0;
+}
