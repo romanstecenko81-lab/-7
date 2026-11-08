@@ -1,5 +1,6 @@
-А я Хлопчик, но не кто не узнает.
+#include <iostream>
 
-А хлопчик то ГИЙТЕРИСТ
-
-LOLOLOLLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
